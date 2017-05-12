@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "plugins": [
+    "prettier"
+  ],
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error", {"singleQuote": true, "trailingComma": "es5", "printWidth": 100 }
+    ],
+    "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": true, "varsIgnorePattern": "^_" }]
+  }
+}
