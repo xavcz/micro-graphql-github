@@ -19,6 +19,7 @@
     "graphql-server-micro": "^0.7.2",
     "graphql-tools": "^0.11.0",
     "micro": "^7.3.2",
+    "micro-cors": "^0.0.4",
     "node-fetch": "^1.6.3"
   },
   "devDependencies": {
