@@ -32,7 +32,7 @@ const resolvers = {
     repositories: async () => {
       // fetch repositories data
       const rawResponses = await Promise.all(
-        repoNames.map(name => fetch(`http://api.github.com/repos/${name}`))
+        repoNames.map(name => fetch(`https://api.github.com/repos/${name}`))
       );
 
       // transform responses in exploitable JSON
